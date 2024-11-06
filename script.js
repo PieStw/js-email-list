@@ -12,6 +12,5 @@ function getEmail(){
   }
 }
 
-
-
 getEmail()
+document.getElementById("generate").addEventListener("click", getEmail);
